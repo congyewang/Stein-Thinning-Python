@@ -1,0 +1,6 @@
+[submodule "include/Stein-Thinning-Cpp"]
+	path = include/Stein-Thinning-Cpp
+	url = https://github.com/congyewang/Stein-Thinning-Cpp.git
+[submodule "include/carma"]
+	path = include/carma
+	url = https://github.com/RUrlus/carma.git
