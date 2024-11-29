@@ -10,9 +10,54 @@
 #   universal: false
 
 -e file:.
+asttokens==2.4.1
+    # via stack-data
 cmake==3.30.2
     # via stein-thinning-python
-numpy==2.1.0
+decorator==5.1.1
+    # via ipython
+exceptiongroup==1.2.2
+    # via ipython
+executing==2.0.1
+    # via stack-data
+ipython==8.18.1
+jedi==0.19.1
+    # via ipython
+matplotlib-inline==0.1.7
+    # via ipython
+numpy==2.0.2
+    # via pandas
     # via stein-thinning-python
+pandas==2.2.2
+parso==0.8.4
+    # via jedi
+pexpect==4.9.0
+    # via ipython
+prompt-toolkit==3.0.47
+    # via ipython
+ptyprocess==0.7.0
+    # via pexpect
+pure-eval==0.2.3
+    # via stack-data
 pybind11==2.13.5
     # via stein-thinning-python
+pygments==2.18.0
+    # via ipython
+python-dateutil==2.9.0.post0
+    # via pandas
+pytz==2024.1
+    # via pandas
+six==1.16.0
+    # via asttokens
+    # via python-dateutil
+stack-data==0.6.3
+    # via ipython
+traitlets==5.14.3
+    # via ipython
+    # via matplotlib-inline
+typing-extensions==4.12.2
+    # via ipython
+tzdata==2024.1
+    # via pandas
+wcwidth==0.2.13
+    # via prompt-toolkit
